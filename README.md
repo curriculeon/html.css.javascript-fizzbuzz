@@ -29,7 +29,7 @@ const fb3 = new FizzBuzz(7, 2);
 console.log(fb3.isFizz(21)); // Output: true
 ```
 
-* In the above examples, we create an instance of the `FizzBuzz` class with different `fizz` and buzz `values`. Then we call the `isFizz` method on that instance with different input values. Here are the corresponding outputs:
+* In the above examples, we create an instance of the `FizzBuzz` class with different `fizz` and `buzz` values. Then we call the `isFizz` method on that instance with different input values. Here are the corresponding outputs:
  * Example 1: In this example, `fb1` has fizz equal to 3. When we call `isFizz(9)`, which is divisible by 3, it returns `true`.
  * Example 2: In this example, `fb2` has fizz equal to 3. When we call `isFizz(10)`, which is not divisible by 3, it returns `false`.
  * Example 3: In this example, `fb3` has fizz equal to 7. When we call `isFizz(21)`, which is divisible by 7, it returns `true`.
